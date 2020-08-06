@@ -72,8 +72,8 @@ class connec4(commands.Cog):
                     return True
 
         #check vertical spaces
-        for x in range(7):
-            for y in range(3):
+        for y in range(3):
+            for x in range(7):
                 if board[x][y] == player and board[x][y+1] == player and board[x][y+2] == player and board[x][y+3] == player:
                     return True
 
